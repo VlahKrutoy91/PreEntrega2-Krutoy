@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    text-align: center;
+    font-size: large;
+    color: bisque;
+}
+
+
+main{
+    display: flex;
+    flex-flow:column;
+  
+    align-items: flex-start;
+}
+
+h1{
+    
+ 
+    margin: auto;
+    padding: 10px;
+    background-color:/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4d0266+0,8103c5+100&1+0,0+100 */
+    background: -moz-linear-gradient(top,  rgba(77,2,102,1) 0%, rgba(129,3,197,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(77,2,102,1) 0%,rgba(129,3,197,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(77,2,102,1) 0%,rgba(129,3,197,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d0266', endColorstr='#008103c5',GradientType=0 ); /* IE6-9 */
+    
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+style{
+    viewport-fit:auto;
+}
+h2{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tarot{
+    background-image: url(/img/tarot.png);
+    background-attachment: fixed;
+    margin: 30px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.397);
+ 
+    color: orange;
+}
+.tarot p{
+    background-color: #e9715b5e;
+    line-height: 1.5;
+    padding: 20px;
+}
+.terapias{
+    background-image: url(/img/pendulo.png);
+    background-attachment: fixed;
+    margin: 30px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.397);
+ 
+    color: orange; 
+}
+.terapias p {
+background-color: #e9715b5e;
+line-height: 1.5;
+padding: 20px;}
+h3{
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+}
+.image1{
+    align-self: center;
+    order: -;
+    justify-content: space-around;
+}
+.image1 :hover{
+    opacity: none;
+    border: solid 2px white;
+}
+.image2{
+    align-self: center;
+    order: -3;
+    
+}
+.image2 :hover{
+    opacity: none;
+    border: solid 2px white;
+}
